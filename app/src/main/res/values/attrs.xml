@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="monthLabelTextColor" format="color" />
+    <attr name="weekLabelTextColor" format="color" />
+    <attr name="dayLabelTextColor" format="color" />
+    <attr name="todayLabelTextColor" format="color" />
+    <attr name="disabledDayLabelTextColor" format="color" />
+    <attr name="adjacentMonthDayLabelTextColor" format="color" />
+    <attr name="pickedDayLabelTextColor" format="color" />
+    <attr name="pickedDayInRangeLabelTextColor" format="color" />
+    <attr name="pickedDayBackgroundColor" format="color" />
+    <attr name="pickedDayInRangeBackgroundColor" format="color" />
+
+
+    <attr name="monthLabelTextSize" format="dimension" />
+    <attr name="weekLabelTextSize" format="dimension" />
+    <attr name="dayLabelTextSize" format="dimension" />
+
+    <attr name="monthLabelTopPadding" format="dimension" />
+    <attr name="monthLabelBottomPadding" format="dimension" />
+    <attr name="weekLabelTopPadding" format="dimension" />
+    <attr name="weekLabelBottomPadding" format="dimension" />
+    <attr name="dayLabelVerticalPadding" format="dimension" />
+
+    <attr name="pickedDayRoundSquareCornerRadius" format="dimension" />
+
+    <attr name="showTwoWeeksInLandscape" format="boolean" />
+    <attr name="showAdjacentMonthDays" format="boolean" />
+
+    <attr name="pickedDayBackgroundShapeType" format="enum">
+        <enum name="circle" value="0" />
+        <enum name="roundSquare" value="1" />
+    </attr>
+
+    <attr name="calendarType" format="enum">
+        <enum name="civil" value="0" />
+        <enum name="persian" value="1" />
+        <enum name="hijri" value="2" />
+    </attr>
+
+    <attr name="animateSelection" format="boolean" />
+    <attr name="animationDuration" format="integer" />
+
+    <declare-styleable name="SimpleMonthView">
+
+        <attr name="dayLabelTextColor" />
+        <attr name="todayLabelTextColor" />
+        <attr name="disabledDayLabelTextColor" />
+        <attr name="adjacentMonthDayLabelTextColor" />
+        <attr name="pickedDayLabelTextColor" />
+        <attr name="pickedDayInRangeLabelTextColor" />
+        <attr name="pickedDayBackgroundColor" />
+        <attr name="pickedDayInRangeBackgroundColor" />
+
+        <attr name="dayLabelTextSize" />
+
+        <attr name="dayLabelVerticalPadding" />
+
+        <attr name="pickedDayRoundSquareCornerRadius" />
+
+        <attr name="showTwoWeeksInLandscape" />
+        <attr name="showAdjacentMonthDays" />
+
+        <attr name="pickedDayBackgroundShapeType" />
+        <attr name="calendarType" />
+
+        <attr name="animateSelection" />
+        <attr name="animationDuration" />
+
+    </declare-styleable>
+
+    <declare-styleable name="PrimeMonthView">
+
+        <attr name="monthLabelTextColor" />
+        <attr name="weekLabelTextColor" />
+        <attr name="dayLabelTextColor" />
+        <attr name="todayLabelTextColor" />
+        <attr name="disabledDayLabelTextColor" />
+        <attr name="adjacentMonthDayLabelTextColor" />
+        <attr name="pickedDayLabelTextColor" />
+        <attr name="pickedDayInRangeLabelTextColor" />
+        <attr name="pickedDayBackgroundColor" />
+        <attr name="pickedDayInRangeBackgroundColor" />
+
+        <attr name="monthLabelTextSize" />
+        <attr name="weekLabelTextSize" />
+        <attr name="dayLabelTextSize" />
+
+        <attr name="monthLabelTopPadding" />
+        <attr name="monthLabelBottomPadding" />
+        <attr name="weekLabelTopPadding" />
+        <attr name="weekLabelBottomPadding" />
+        <attr name="dayLabelVerticalPadding" />
+
+        <attr name="pickedDayRoundSquareCornerRadius" />
+
+        <attr name="showTwoWeeksInLandscape" />
+        <attr name="showAdjacentMonthDays" />
+
+        <attr name="pickedDayBackgroundShapeType" />
+        <attr name="calendarType" />
+
+        <attr name="animateSelection" />
+        <attr name="animationDuration" />
+
+    </declare-styleable>
+
+    <declare-styleable name="PrimeCalendarView">
+        <attr name="monthLabelTextColor" />
+        <attr name="weekLabelTextColor" />
+        <attr name="dayLabelTextColor" />
+        <attr name="todayLabelTextColor" />
+        <attr name="disabledDayLabelTextColor" />
+        <attr name="adjacentMonthDayLabelTextColor" />
+        <attr name="pickedDayLabelTextColor" />
+        <attr name="pickedDayInRangeLabelTextColor" />
+        <attr name="pickedDayBackgroundColor" />
+        <attr name="pickedDayInRangeBackgroundColor" />
+
+        <attr name="monthLabelTextSize" />
+        <attr name="weekLabelTextSize" />
+        <attr name="dayLabelTextSize" />
+
+        <attr name="monthLabelTopPadding" />
+        <attr name="monthLabelBottomPadding" />
+        <attr name="weekLabelTopPadding" />
+        <attr name="weekLabelBottomPadding" />
+        <attr name="dayLabelVerticalPadding" />
+
+        <attr name="pickedDayRoundSquareCornerRadius" />
+
+        <attr name="showTwoWeeksInLandscape" />
+        <attr name="showAdjacentMonthDays" />
+
+        <attr name="pickedDayBackgroundShapeType" />
+        <attr name="calendarType" />
+
+        <attr name="animateSelection" />
+        <attr name="animationDuration" />
+
+        <attr name="loadFactor" format="integer" />
+        <attr name="maxTransitionLength" format="integer" />
+        <attr name="transitionSpeedFactor" format="float" />
+
+        <attr name="dividerColor" format="color" />
+        <attr name="dividerThickness" format="dimension" />
+        <attr name="dividerInsetLeft" format="dimension" />
+        <attr name="dividerInsetRight" format="dimension" />
+        <attr name="dividerInsetTop" format="dimension" />
+        <attr name="dividerInsetBottom" format="dimension" />
+
+        <attr name="elementPaddingLeft" format="dimension" />
+        <attr name="elementPaddingRight" format="dimension" />
+        <attr name="elementPaddingTop" format="dimension" />
+        <attr name="elementPaddingBottom" format="dimension" />
+
+        <attr name="flingOrientation" format="enum">
+            <enum name="vertical" value="0" />
+            <enum name="horizontal" value="0" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TwoLinesTextView">
+        <attr name="topLabelText" format="string" />
+        <attr name="bottomLabelText" format="string" />
+
+        <attr name="topLabelTextColor" format="color" />
+        <attr name="bottomLabelTextColor" format="color" />
+
+        <attr name="topLabelTextSize" format="dimension" />
+        <attr name="bottomLabelTextSize" format="dimension" />
+
+        <attr name="preferredMinWidth" format="dimension" />
+        <attr name="gapBetweenLines" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageSlider">
+        <attr name="iss_auto_cycle" format="boolean" />
+        <attr name="iss_corner_radius" format="integer" />
+        <attr name="iss_period" format="integer" />
+        <attr name="iss_delay" format="integer" />
+        <attr name="iss_placeholder" format="reference" />
+        <attr name="iss_error_image" format="reference" />
+        <attr name="iss_selected_dot" format="reference" />
+        <attr name="iss_unselected_dot" format="reference" />
+        <attr name="iss_title_background" format="reference" />
+        <attr name="iss_text_align" format="string" />
+        <attr name="iss_indicator_align" format="string" />
+    </declare-styleable>
+    <declare-styleable name="PasswordView">
+        <attr name="strikeThrough" format="boolean" />
+        <attr name="eyeTint" format="color" />
+    </declare-styleable>
+
+    <attr name="NoInternet_Dialog_Pendulum_airplaneColor" format="color" />
+
+    <attr name="NoInternet_Dialog_Signal_airplaneColor" format="color" />
+    <attr name="NoInternet_Dialog_Signal_topBottomShade" format="reference" />
+    <attr name="NoInternet_Dialog_Signal_round" format="reference" />
+    <attr name="NoInternet_Dialog_Signal_cloudColorOne" format="reference" />
+    <attr name="NoInternet_Dialog_Signal_cloudColorTwo" format="reference" />
+    <attr name="NoInternet_Dialog_Signal_cloudColorThree" format="reference" />
+</resources>

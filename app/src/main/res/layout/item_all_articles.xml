@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardDetail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:clickable="false"
+            android:gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/avatar_trip"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="7dp"
+                android:clickable="false"
+                android:src="@drawable/picture"
+                app:civ_border_color="@color/hintColor"
+                app:civ_border_width="1dp" />
+
+            <TextView
+                android:id="@+id/tvArticleName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+
+                android:layout_marginTop="7dp"
+                android:layout_toEndOf="@+id/avatar_trip"
+                android:clickable="false"
+                android:gravity="start"
+                tools:text="Betty White, a Television Golden Girl From the Start, Is Dead at 99"
+                android:textColor="@color/top_text_color"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/tv_publish_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvArticleName"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="7dp"
+                android:layout_toEndOf="@+id/avatar_trip"
+                android:clickable="false"
+                tools:text="2021-12-31"
+                android:textColor="@color/priceColor"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:clickable="false"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="false">
+
+
+                <TextView
+                    android:id="@+id/tvDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:clickable="false"
+                    android:gravity="center"
+                    android:text="Show details"
+                    android:textColor="@color/priceColor"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
